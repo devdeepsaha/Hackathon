@@ -1,0 +1,126 @@
+body {
+    font-family: 'Poppins',sans-serif;
+    background-color: #1b1b1b; /* Sky blue background */
+    opacity: 0.9;
+    margin: 0;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff; /* White font */
+}
+
+.container {
+    background-color: #25284b; /* Dark background */
+    padding: 30px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    width: 100%;
+    max-width: 1000px;
+    box-sizing: border-box;
+    color: #fff; /* White text */
+    text-align: center;
+}
+
+h2, h3, h4 {
+    margin-top: 0;
+    color: #f8f8f9; /* Orange text */
+    background-color: #11100e; /* Dark background for headings */
+    padding: 10px; 
+    border-radius: 5px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+    background-color: #575454; /* Dark background */
+    opacity: 0.9;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    color: #f9aa33; /* Orange text */
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+    border: 1px solid #f9aa33; /* Orange border */
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #fff; /* White background */
+    color: #11100e; /* Dark text */
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    font-weight: 200;
+    background-color: #f9aa33; /* Orange background */
+    color: #11100e; /* Dark text */
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 18px;
+    width: 48%;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #e08c00; /* Darker orange on hover */
+    transform: scale(1.05);
+}
+
+.box-section {
+    background-color: #333; /* Dark background */
+    color: #737acd; /* Orange text */
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.box-section:hover {
+    background-color: linear-gradient(to right, #283048, #859398); /* Slightly lighter dark on hover */
+    transform: scale(1.02);
+}
+
+
+.button-group {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    margin-top: 20px;
+}
+
+button {
+    font-weight: 200;
+    background-color: #2f6fb7; /* Orange background */
+    color: #1f1f1f; /* Dark text */
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 18px;
+    width: 200px; /* Set a fixed width */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: #2db877; /* Darker orange on hover */
+    transform: scale(1.05);
+}

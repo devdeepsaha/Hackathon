@@ -1,0 +1,152 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1b1b1b; /* Light orange background */
+    margin: 0;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff; /* White font */
+}
+
+/* Container styles */
+.container {
+    background-color: #25284b; /* Dark background */
+    padding: 30px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    width: 100%;
+    max-width: 1000px;
+    box-sizing: border-box;
+    color: #fff; /* White text for contrast */
+    text-align: center;
+}
+
+/* Heading styles */
+h2, h3 {
+    margin-top: 0;
+    color: #f9aa33; /* Orange text */
+    background-color: #1f1f1f; /* Dark background for headings */
+    padding: 10px; 
+    border-radius: 5px;
+}
+
+/* Form group styles */
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+    background-color: #575454; /* Dark background */
+    opacity: 0.9;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    color: #f9aa33; /* Orange text */
+    font-weight: bold;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+    border: 1px solid #f9aa33; /* Orange border */
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #fff; /* White background */
+    color: #11100e; /* Black text */
+}
+
+.form-group textarea {
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+    border: 1px solid #f9aa33; /* Orange border */
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #fff; /* White background */
+    color: #11100e; /* Black text */
+    resize: vertical;
+}
+
+/* Button group styles */
+.button-group {
+    display: flex;
+    justify-content: flex-end; /* Align buttons to the end */
+}
+
+.button-group button {
+    font-weight: 200;
+    background-color: #f9aa33; /* Orange background */
+    color: #1f1f1f; /* Dark text */
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 18px;
+    width: auto; /* Allow buttons to expand as needed */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin-top: 20px;
+    margin-left: 10px; /* Adjust spacing between buttons */
+}
+
+.button-group button:hover {
+    background-color: #e08c00; /* Darker orange on hover */
+    transform: scale(1.05);
+}
+
+/* Box section styles */
+.box-section {
+    background-color: #1f1f1f; /* Dark background */
+    color: #f9aa33; /* Orange text */
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    position: relative; /* Add position relative */
+}
+
+.box-section:hover {
+    background-color: #444; /* Slightly lighter dark on hover */
+    transform: scale(1.02);
+}
+
+/* Remove and add button styles */
+.remove-btn, .add-btn {
+    position: absolute;
+    top: 10px;
+    background-color: #f44336; /* Red for remove and green for add */
+    color: #fff; /* White text */
+    border: none;
+    padding: 5px 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.add-btn {
+    right: 50px; /* Adjust position for the add button */
+    background-color: #4caf50; /* Green for add */
+    border: 2px solid #1f1f1f; /* Border style */
+}
+
+.remove-btn {
+    right: 100px; /* Adjust position for the remove button */
+    background-color: #f44336; /* Red for remove */
+    border: 2px solid #1f1f1f; /* Border style */
+}
+
+.remove-btn:hover, .add-btn:hover {
+    background-color: #d32f2f; /* Darker red on hover */
+}
