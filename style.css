@@ -511,4 +511,8 @@ header.shadow{
   .toggle:focus {
     outline: transparent;
   }
+
+ .box h3{
+    color: var(--main-color);
+}
   
